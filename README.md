@@ -1,14 +1,9 @@
 
 > Open this page at [https://captaincredible.github.io/morse-tutorial/](https://captaincredible.github.io/morse-tutorial/)
 
-## Use as Extension
+## Tutorials
 
-This repository can be added as an **extension** in MakeCode.
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/captaincredible/morse-tutorial** and import
+* [tutorial](/tutorial)
 
 ## Edit this project
 
