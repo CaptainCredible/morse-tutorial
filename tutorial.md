@@ -2,10 +2,14 @@
 
 ## Step 1
 
-Add code to display a smiley
+Add code to register button presses
 
 ```blocks
-basic.showString(":)")
+Morse.whileButtonAisHeld(function () {
+    Morse.makeMorseBeep(262)
+    Morse.makeMorseBlink()
+    radio.sendString("beep")
+})
 ```
 
 ## Step 2

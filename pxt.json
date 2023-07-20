@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "Morse": "github:captaincredible/morse#master"
     },
     "files": [
         "main.ts",
