@@ -3,7 +3,7 @@
 
 ## Tutorials
 
-* [tutorial](morse-tutorial/tutorial)
+* [tutorial](/morse-tutorial/tutorial)
 
 ## Edit this project
 
