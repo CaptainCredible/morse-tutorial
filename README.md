@@ -7,7 +7,7 @@
 
 ## Edit this project
 
-To edit this repository in MakeCode.
+To edit this repository in MakeCode. 
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * click on **Import** then click on **Import URL**
