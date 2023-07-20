@@ -1,7 +1,7 @@
 
 > Open this page at [https://captaincredible.github.io/morse-tutorial/](https://captaincredible.github.io/morse-tutorial/)
 
-## Tutorials
+## Tutorial
 
 * [tutorial](/morse-tutorial/tutorial) [start](https://makecode.microbit.org/#tutorial:github:captaincredible/morse-tutorial/tutorial)
 
