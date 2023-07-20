@@ -3,7 +3,7 @@
 
 ## Tutorials
 
-* [tutorial](/morse-tutorial/tutorial)
+* [tutorial](/morse-tutorial/tutorial) [start](https://makecode.microbit.org/#tutorial:github:captaincredible/morse-tutorial/tutorial)
 
 ## Edit this project
 
