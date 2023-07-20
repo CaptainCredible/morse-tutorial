@@ -5,7 +5,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Morse": "github:captaincredible/morse#master"
+        "Morse": "github:captaincredible/morse#v0.0.1"
     },
     "files": [
         "main.ts",
