@@ -14,7 +14,7 @@ Morse.whileButtonAisHeld(function () {
 
 ## Step 2
 
-Add another block to display more text.
+Do more stuff
 
 ```blocks
 basic.showString(":)")

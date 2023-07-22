@@ -6,7 +6,7 @@
         "core": "*",
         "radio": "*",
         "microphone": "*",
-        "Morse": "github:captaincredible/morse#v0.0.1"
+        "Morse": "github:captaincredible/morse#v1.0.0"
     },
     "files": [
         "main.ts",
@@ -19,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "6.0.15",
+        "target": "6.0.16",
         "targetId": "microbit"
     },
     "supportedTargets": [
