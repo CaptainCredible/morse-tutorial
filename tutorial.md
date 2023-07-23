@@ -4,7 +4,7 @@
 
 Legg til klosser for å registrere knappetrykk og lage pipelyder og blinking.
 vi må bruke den spesielle "whileButtonAisHeld" klossen for at mikrobiten skal
-reagere fort nok på knappetrykkene våre
+reagere fort nok på knappetrykkene våre. Husk at du kan trykke på lysbæren for å se hva du skal lage.
 
 ```blocks
 Morse.whileButtonAisHeld(function () {
@@ -17,7 +17,7 @@ Morse.whileButtonAisHeld(function () {
 
 Nå kan vi legge til klossen for å sette radiogruppe. Da kan vi gå videre å sende morse signalene ut over radio!
 Bare microbit med samme radiogruppe kan sende og motta morsesignaler med hverandre.
-Velg ett eget tall til radiogruppen til deg od de du skal snakke med.
+Velg ett eget tall til radiogruppen til deg og de du skal snakke med.
 ```blocks
 Morse.whileButtonAisHeld(function () {
     Morse.makeMorseBeep(600)
@@ -58,9 +58,27 @@ radio.setGroup(1)
 ## Step 5
 
 Da har du en fungerende sender og mottaker. Da kan du sende denne meldingen: ".... ..- .-. .-. .- -.-.--"
+Hvis du vil bruke en egen morsenøkkel tilkoblet micro:biten kan du gå videre til neste steg.
 
 ```blocks
 Morse.whileButtonAisHeld(function () {
+    Morse.makeMorseBeep(600)
+    Morse.makeMorseBlink()
+    radio.sendString("beep")
+})
+radio.onReceivedString(function (receivedString) {
+    Morse.makeMorseBeep(600)
+    Morse.makeMorseBlink()
+})
+radio.setGroup(1)
+```
+
+## Step 6
+
+Koble morsenøkkelen din til micro:biten så den ene ledningen går til "GND" og den andre går til "1" og bytt ut "while button A is held" med "while pin P1 is connected to GND". Husk at du må selv velge P1 på klossen istedet for P0
+
+```blocks
+Morse.whilePinIsConnectedToGND(DigitalPin.P1, function () {
     Morse.makeMorseBeep(600)
     Morse.makeMorseBlink()
     radio.sendString("beep")
