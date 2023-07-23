@@ -1,17 +1,11 @@
 
 > Open this page at [https://captaincredible.github.io/morse-tutorial/](https://captaincredible.github.io/morse-tutorial/)
 
-## Tutorial
+## Send og motta morse med micro:bit!
 
-* [tutorial](/morse-tutorial/tutorial) [start](https://makecode.microbit.org/#tutorial:github:captaincredible/morse-tutorial/tutorial)
+* [les eller skriv ut instruksjonene her](/morse-tutorial/tutorial) 
+* [Prøv selv med morseklossene!](https://makecode.microbit.org/#tutorial:github:captaincredible/morse-tutorial/tutorial)
 
-## Edit this project
-
-To edit this repository in MakeCode. 
-
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/captaincredible/morse-tutorial** and click import
 
 #### Metadata (used for search, rendering)
 
